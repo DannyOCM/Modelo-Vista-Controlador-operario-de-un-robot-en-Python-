@@ -1,2 +1,5 @@
 # Modelo-Vista-Controlador-operario-de-un-robot-en-Python-
 sistema de control para un robot móvil utilizando la arquitectura Modelo Vista Controlador en Python. El robot tiene una base móvil y un brazo robótico que se puede mover en tres grados de libertad: elevación, giro y longitud. El usuario podrá enviar comando al robot para moverlo a una ubicación deseada.
+1.-En el el modelo se define los metodos necesarios para controlar el movimiento del robo. los metodos move_elevetation, move_rotation y move legend camboian las cordenadas del robot en los ejes de elevacion, giro y longitud respectivamente. El metodo stop movement pone las cordenadas en cero para dtener su moviemnto
+2.-en esta clase se define los metodos que sean necesarios para poder mostrar informacion al usuario y asi resivir los comandos de entrada. el metodo get user input solicita al usuario que ingrese las cordenadas de elevacion girop y longitud y las devuelve como una tupla. el metodo show robot position muestra la posicion actual en la consola 
+3.-en esta clase se define los metodos necesarios para que se procese los comandos  del usuario y llamara a los metodos. el metodo run es 
